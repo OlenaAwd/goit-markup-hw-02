@@ -1,0 +1,93 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --description-color: #757575;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+h2,
+h3 h4 {
+  color: #212121;
+}
+
+/* цвет основного текста - #212121;
+ цвет вторичный #757575;
+ акцент - #2196F3; 
+ цвет фон шапки #FFFFFF;
+ цвет фона #E5E5E5; */
+
+.header-page {
+  background-color: var(--background-color);
+}
+
+/*Logo*/
+.logo {
+  color: #000000;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+
+/* Site-nav*/
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts-nav .link {
+  color: var(--primary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*Hero*/
+.hero-title {
+  color: #ffffff;
+}
+
+/*Section*/
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/*Features*/
+.features .title {
+  color: var(--primary-text-color);
+}
+
+.features .description {
+  color: var(--description-color);
+}
+
+/*Work*/
+.team .name {
+  color: var(--primary-text-color);
+}
+.team .profession {
+  color: var(--description-color);
+}
+
+/*Button*/
+.button {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
