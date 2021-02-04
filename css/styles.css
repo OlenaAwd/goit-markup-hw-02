@@ -7,7 +7,8 @@
 }
 
 body {
-  background: #e5e5e5;
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
 }
 
 h2,
@@ -28,6 +29,10 @@ h3 h4 {
 /*Logo*/
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 .logo-accent {
   color: var(--accent-color);
@@ -39,6 +44,10 @@ h3 h4 {
 /* Site-nav*/
 .site-nav .link {
   color: var(--primary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 .site-nav .link:hover,
@@ -52,6 +61,11 @@ h3 h4 {
 
 .contacts-nav .link {
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .contacts-nav .link:hover,
@@ -60,8 +74,16 @@ h3 h4 {
 }
 
 /*Hero*/
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
-  color: #ffffff;
+  color: var(--background-color);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
 }
 
 /*Section*/
@@ -71,11 +93,17 @@ h3 h4 {
 
 /*Features*/
 .features .title {
-  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 .features .description {
   color: var(--description-color);
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /*Work*/
@@ -90,4 +118,10 @@ h3 h4 {
 .button {
   color: var(--background-color);
   background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
+
+/*Portfolio-page*/
